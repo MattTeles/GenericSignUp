@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-image: url(./img/stars.jpg);
+   font-family: Raleway;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container{
+    display: block;
+    max-width: 550px;
+    margin: auto; 
+    padding: 100px; 
+}
+
+.form-wrap {
+    background-color: #fff;
+    padding-top: 30px;
+    border-radius: 4px;
+}
+
+ .form-wrap h1,
+.form-wrap p {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.form-wrap .form-group {
+      padding: 15px;
+ }
+
+.form-wrap .form-group label {
+    padding-bottom: 10px;
+    display: block;
+}
+
+.form-wrap .form-group input {
+    padding: 10px;
+    width: 100%;
+    border-left: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d16c;
+    border-right: 1px solid #d1d1d16c;
+    border-radius: 4px;
+}
+
+.form-wrap button {
+    display: block;
+    background-color: #49c1a2;
+    color: #fff;
+    width: 80%;
+    padding: 7px;
+    margin: auto;
+    border-radius: 3px;
+    border: none;
+    transition: .2s ease-in;
+}
+
+.form-wrap button:hover {
+    background-color: #37a08e;
+}
+
+.form-wrap .bottom-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+      color: #49c1a2;
+}
